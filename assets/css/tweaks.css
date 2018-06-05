@@ -1,0 +1,53 @@
+#header:before {
+  background: none;
+}
+
+a {
+  color: rgb(125, 170, 66);
+}
+
+a.img {
+  border: 0;
+}
+
+img.logo-img {
+  width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  img.logo-img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  img.logo-img {
+    width: 100%;
+  }
+}
+
+td:first-child {
+  min-width: 90px;
+}
+
+.button {
+  background: rgb(125, 170, 66);
+}
+
+.button:hover {
+  background: rgb(145, 190, 86);
+}
+
+div#footer {
+  background-color: rgb(85,180,221);
+  /*#524437;*/
+  color: #fff;
+}
+
+#footer .button {
+  color: rgb(85,180,221);
+}
+
+.image:after {
+  opacity: 0;
+}
